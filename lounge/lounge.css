@@ -110,13 +110,12 @@ body p a:visited { color: #333333; }
   text-align: center;
   background-image: url(images/cocktail.gif);
   background-repeat: repeat-x;
+  line-height: 1em;
+  line-height: 1;
 }
-div h2 {
-  color: black;
+.cd {
+  font-style: italic;
 }
-#elixirs h2 {
-  color: black;
-}
-#elixirs h3{
-color :#d12c47;
+.artist {
+  font-weight: bold;
 }
