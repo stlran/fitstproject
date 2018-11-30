@@ -1,4 +1,4 @@
-.sq{
+.sq2{
   width: 1226px;
   margin-left: auto;
   margin-right: auto;
@@ -12,14 +12,14 @@
   line-height: 40px;
   font-size: 12px;
   width:100%;
-  background-color: black
+  background: #333333;
 }
 #nav-stlr a{
 color: gray;
 text-decoration: none;
 }
 .login{
-  margin-left: 100px;
+  margin-left: 460px;
 }
 .shopcart-st{
   display: inline-block;
@@ -36,12 +36,20 @@ text-decoration: none;
   background-color: #ff6700;
   margin-top: 10px;
 }
+ul li{
+  list-style: none;
+}
+#nav2-st{
+  height: 420px;
+  border: 0;
+
+
+}
 .nav-st{
   display:inline-block;
-  padding: 26px 200px 38px;
   font-size: 16px;
-
-
+  word-spacing: 20px;
+  margin-left: 170px;
 }
 
 
