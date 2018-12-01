@@ -1,0 +1,243 @@
+html{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+body{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+    margin: 0;
+}
+.sq{
+    position: relative;
+    z-index: 30;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+.st{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#nav-stlr{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+#nav-stlr a{
+    color: #b0b0b0;
+    text-decoration: none;
+    }
+#nav2-stlr{
+    width: 120px;
+    margin-left: 15px;
+    position: relative;
+    float: right;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+#nav2-stlr a{
+    color: #b0b0b0;
+    text-decoration: none;
+    }
+#nav3-stlr{
+    line-height: 40px;
+    position: relative;
+    float: right;
+    height: 40px;
+}
+#nav3-stlr a{
+    color: #b0b0b0;
+    text-decoration: none;
+    float: left;
+    }
+.shopcart-st{
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -4px;
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-text-stroke-width: 0.2px;
+}
+.site-header-stlr{
+    position: relative;
+    z-index: 20;
+    height: 100px;
+}
+.cont-lr{
+    position: relative;
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-logo-st{
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+.logo-lr{
+    outline: 0;
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    background-color: #ff6700;
+    text-align: left;
+    text-indent: -9999em;
+    color: #757575;
+    text-decoration: none;
+}
+.header-nav-stlr{
+    float: left;
+    width: 850px;
+}
+.nav-list{
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 820px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+.nav-category-lr{
+    position: relative;
+    float: left;
+    width: 127px;
+    padding-right: 15px;
+}
+.link-category-37{
+    visibility: hidden;
+    display: block;
+    padding: 26px 0 38px;
+    text-align: right;
+    color: #333;
+}
+.site-category{
+    display: block;
+    position: absolute;
+    top: 88px;
+    left: -92px;
+    z-index: 21;
+    width: 234px;
+    height: 460px;
+    font-size: 14px;
+}
+.site-category-list-2000{
+    height: 420px;
+    border: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    margin: 0;
+    padding: 20px 0;
+    list-style-type: none;
+}
+.title{
+    color: #fff;
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    text-decoration: none;
+}
+.iconfont-2001{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: normal;
+}
+.nav-item-lr{
+    float: left;
+}
+.link{
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+    text-decoration: none;
+}
+.header-search-stlr{
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+.search-form-stlr{
+    position: relative;
+    width: 296px;
+    height: 50px;
+    margin: 0;
+}
+.search-text-sq{
+    position: absolute;
+    top: 0;
+    right: 51px;
+    z-index: 1;
+    width: 223px;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+    outline: 0;
+    transition: all .2s;
+}
+input[type="search"]{
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+}
+input{
+    margin: 0;
+    vertical-align: baseline;
+    font-family: sans-serif;
+}
+.search-btn-lr{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+    transition: all .2s;
+}
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    border-radius: 0;
+}
+input{
+    margin: 0;
+    vertical-align: baseline;
+}
+.search-hot-words-0711{
+    position: absolute;
+    top: 14px;
+    right: 62px;
+    z-index: 2;
+    text-align: right;
+}
+.search-hot-words-0711 a{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0 5px;
+    font-size: 12px;
+    background: #eee;
+    color: #757575;
+    transition: all .2s;
+    text-decoration: none;
+}
