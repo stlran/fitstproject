@@ -22,6 +22,9 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+#nav-stlr span a:hover{
+color: #fff;
+}
 #nav-stlr{
     float: left;
     height: 40px;
@@ -44,6 +47,9 @@ body{
     color: #b0b0b0;
     text-decoration: none;
     }
+#nav3-stlr span a:hover{
+  color:#fff;
+}
 #nav3-stlr{
     line-height: 40px;
     position: relative;
@@ -119,6 +125,9 @@ body{
     text-align: right;
     color: #333;
 }
+.nav-item-lr a:hover{
+  color: #ff6700;
+}
 .site-category{
     display: block;
     position: absolute;
@@ -137,6 +146,9 @@ body{
     margin: 0;
     padding: 20px 0;
     list-style-type: none;
+}
+.site-category-list-2000 li a:hover{
+background-color: #ff6600;
 }
 .title{
     color: #fff;
