@@ -313,7 +313,7 @@ background-color: #ff6600;
 .icull-lr{
 position: relative;
 }
-.xiaomibijiben{
+.xiaomishubiao{
   width: 1226px;
 
 }
@@ -321,4 +321,46 @@ position: relative;
   width: 1226px;
   margin-left: auto;
   margin-right: auto;
+}
+.first{
+    position: relative;
+    height: 58px;
+}
+.first-font-1{
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.tit-le{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.first-font-1-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.font-1{
+    margin: 0;
+    padding: 16px 0 0;
+    list-style-type: none;
+    font-size: 16px;
+}
+.tab-active{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+}
+.font-1 li{
+    margin: 0 0 0 30px;
+    display: inline-block;
+    padding: 0;
+    transition: border-color .5s;
+    cursor: pointer;
+}
+.tab-active li:hover{
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
 }
